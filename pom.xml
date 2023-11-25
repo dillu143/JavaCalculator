@@ -10,6 +10,11 @@
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
+   <plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>sonar-maven-plugin</artifactId>
+  <version>3.0.2</version>
+</plugin>
    <dependencies>
       <dependency>
          <groupId>junit</groupId>
